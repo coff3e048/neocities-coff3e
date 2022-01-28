@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>coff3e's homepage</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/icon.css">
+<script src="defaults.js">
+
+</script>
+<style>
+	body {
+		padding-top: 2%;
+		padding-bottom: 5%;
+	}
+
+	img:hover.homeimage {
+		padding: 14px;
+		transform: scale(1.25);
+	}
+
+	img.homeimage {
+		transition: transform .25s;
+		padding: 10px;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+</style>
+
+<body>
+	<!-- i wish i could use php for this, javascript makes this janky and slow :( -->
+	<img class="homeimage" id="randimg" onclick="randomgif()" src="gif/95cd.gif" width=20%>
+  <p id="imgfooter"></p>
+  
+  <script src="script/randimg.js"></script>
+  <p>welcome to the page of</p><br>
+  <div class="dropdown">
+    <span>
+      <h1 style="font-style: italic;">coff3e</h1>
+    </span>
+    <div class="dropdown-content">
+      <p><a href="https://discord.com/"></a>coff3e#4039<br>
+      <a href="https://github.com/coff3e048"></a>coff3e048</p>
+    </div>
+  </div>
+  <p style="font-size:12px; font-style: italic; color: gray;">hover over my name for contacts!</p>
+
+  <div class="bottom">
+    <p style="font-size: 12px;">support those who support you!</p>
+    <a href="https://eff.org"><img src="https://www.eff.org/files/2018/06/14/eff_monogram-primary-red.png"
+        width=160px></a><br>
+    <a href="https://fsf.org/"><img src="https://www.gnu.org/graphics/logo-fsf.org.svg" width=160px></a>
+  </div>
+
+  <!-- using a javascript file for the footer is much less tedious than copying and pasting existing HTML over and over. If there is ever a time where HTML can be included statically, I will use it. -->
+  <script src="footer.js"></script>
+
+</body>
+
+</html>
