@@ -31,27 +31,14 @@ a:hover {
   color: rgb(116, 116, 255);
 }
 
-.header {
-  position: fixed;
-  left: 0;
-  bottom: 1;
-  height: 5%;
-  width: 100;
-  background-color: black;
-  outline: 1px solid grey;
-  color: white;
-}
-
 .footer {
   position: fixed;
   bottom: 0;
-  left: 0%;
-  right: 0%;
   height: 55px;
   word-spacing: 75px;
   width: 100%;
   outline: 1px solid grey;
-  background-color: rgba(0, 0, 0, 0.500);
+  background-color: rgba(0, 0, 0, 0.850);
 }
 
 .footer a:hover {
@@ -63,5 +50,3 @@ a:hover {
   bottom: 0;
   padding-top: 5%;
 }
-
-

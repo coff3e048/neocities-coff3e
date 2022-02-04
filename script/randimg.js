@@ -1,5 +1,6 @@
 let randimg = document.getElementById("randimg");
 let imgfooter = document.getElementById("imgfooter");
+
 const gifs = [
   "skelly",
   "cdhand",
@@ -12,8 +13,8 @@ const gifs = [
   "desktop_pizza",
   "classicdesktop",
   "imac",
-  "vapor",
-  "what",
+  //"vapor",
+  //"what",
   "motherboard",
   "vaporboard",
   "win9x",
@@ -29,23 +30,25 @@ const gifs = [
   "sd1gb",
   "alien"
 ];
-imgfooter.innerHTML = '<br>';
 function randomgif() {
   var count = 0;
   function rand() {
+    imgfooter.innerHTML = "randomizing .gif";
     randimg.src = "gif/" + gifs[Math.floor(Math.random() * gifs.length)] + ".gif";
+    imgfooter.innerHTML = '<br>';
   }
+  rand();
+
   randimg.onclick = function () {
-    rand()
-    if (count > 5) {
-      imgfooter.innerHTML = "<p style='font-size: 55%; color: gray; font-style: italics;'>JavaScript is too slow to make this smooth :(</p>" 
-    } else if (count > 25) {
+    rand();
+    if (count > 4) {
+      imgfooter.innerHTML = "JavaScript is too slow to make this smooth :(";
+    } else if (count > 24) {
       document.open();
-      document.writeln('hello');
+      document.writeln('hi');
       document.close();
     }
     count++;
   }
 }
-
 randomgif();

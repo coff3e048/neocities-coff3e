@@ -1,2 +1,2 @@
 language = "html"
-run = ""
+run = "(cd ../ && ./caddy file-server --listen :8080 || wget 'https://caddyserver.com/api/download?os=linux&arch=amd64&idempotency=20057402370989' && mv 'download?os=linux&arch=amd64&idempotency=20057402370989' ./caddy && chmod +x ./caddy && ./caddy file-server --listen :8080)"

@@ -1,12 +1,12 @@
 const footerElement = [
   '<div class="footer">',
   '<p>',
-  '<a href="/about">about</a>',
+  '<a href="/about.html">about</a>',
   '<a href="/">home</a>',
-  '<a href="/projects">projects</a>',
+  '<a href="/projects.html">projects</a>',
   '<a href="/more.html">more</a>',
-  '</p>',
-  '</div>'
+  '</div>',
+  '</p>'
 ];
 document.open();
 for (let x in footerElement) {

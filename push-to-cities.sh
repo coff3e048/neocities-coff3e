@@ -1,0 +1,1 @@
+npx neocel -t $NEOCITIES_TOKEN
