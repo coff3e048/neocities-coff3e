@@ -13,7 +13,7 @@ a[href*="discord.com/"] {
 }
 
 a[href*="github.com/"] {
-  background:url(github.ico) no-repeat left center;
+  background:url(https://github.com/favicon.ico) no-repeat left center;
   padding:24px;
   background-size: 24px;
   -webkit-filter: invert(100%);
@@ -23,5 +23,11 @@ a[href*="github.com/"] {
 a[href*="twitch.tv/"] {
   background:url(https://twitch.tv/favicon.ico) no-repeat left center;
   padding: 24px;
-  background-size: 16px;
+  background-size: 24px;
+}
+
+a[href*="youtube.com/"] {
+  background:url(https://youtube.com/favicon.ico) no-repeat left center;
+  padding 24px;
+  background-size 24px;
 }

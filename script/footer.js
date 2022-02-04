@@ -1,8 +1,9 @@
 const footerElement = [
   '<div class="footer">',
   '<p>',
+  '<a href="/blog">blog</a>',
   '<a href="/about.html">about</a>',
-  '<a href="/">home</a>',
+  '<a href="/index.html">home</a>',
   '<a href="/projects.html">projects</a>',
   '<a href="/more.html">more</a>',
   '</div>',

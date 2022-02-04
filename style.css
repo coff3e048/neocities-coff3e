@@ -19,7 +19,14 @@ body::after {
   background-image: url('images/Setup.webp');
 }
 
-p, h1, h2 {
+.leftbody {
+  text-align: left;
+  max-width: 50%;
+  margin: auto;
+  padding: 5%;
+}
+
+p, h1, h2, h3 {
   color: white;
 }
 
@@ -38,7 +45,7 @@ a:hover {
   word-spacing: 75px;
   width: 100%;
   outline: 1px solid grey;
-  background-color: rgba(0, 0, 0, 0.850);
+  background-color: rgba(0, 0, 0, 0.550);
 }
 
 .footer a:hover {
