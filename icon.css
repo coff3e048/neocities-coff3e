@@ -6,18 +6,14 @@ a[href*="twitter.com/"] {
 
 a[href*="discord.com/"] {
   background:url(discord.png) no-repeat left center;
-  padding:24px;
+  padding: 24px;
   background-size: 24px;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
 }
 
 a[href*="github.com/"] {
   background:url(https://github.com/favicon.ico) no-repeat left center;
-  padding:24px;
+  padding: 24px;
   background-size: 24px;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
 }
 
 a[href*="twitch.tv/"] {
@@ -28,6 +24,12 @@ a[href*="twitch.tv/"] {
 
 a[href*="youtube.com/"] {
   background:url(https://youtube.com/favicon.ico) no-repeat left center;
-  padding 24px;
-  background-size 24px;
+  padding: 24px;
+  background-size: 24px;
+}
+
+a[href*="steampowered.com/"] {
+  background:url(https://store.steampowered.com/favicon.ico) no-repeat left center;
+  padding: 24px;
+  background-size: 24px;
 }
