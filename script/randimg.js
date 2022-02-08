@@ -37,16 +37,18 @@ function randomgif() {
   function rand() {
     imgfooter.innerHTML = "randomizing .gif";
     if (count < 99) {
-        randimg.src = "gif/" + gifs[Math.floor(Math.random() * gifs.length)] + ".gif";
+      randimg.src = "gif/" + gifs[Math.floor(Math.random() * gifs.length)] + ".gif";
     } else {
-        randimg.src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimages_k%2Ftroll-face-transparent-png%2Ftroll-face-transparent-png-1.png&f=1&nofb=1";
+      randimg.src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimages_k%2Ftroll-face-transparent-png%2Ftroll-face-transparent-png-1.png&f=1&nofb=1";
     }
     imgfooter.innerHTML = '<br>';
   }
+  // Randomize image on website load
   rand();
 
   randimg.onclick = function () {
     rand();
+    // This function adds up a number each clic that manipulates and interacts the image with you.
     if (count > 4) {
       imgfooter.innerHTML = "i apologise for this not being very smooth :(";
     }
@@ -66,4 +68,5 @@ function randomgif() {
   }
 }
 randomgif();
+
 // @license-end
