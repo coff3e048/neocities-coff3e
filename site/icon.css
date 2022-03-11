@@ -1,0 +1,30 @@
+.padding, a[href*="steampowered.com/"], a[href*="youtube.com/"], a[href*="twitch.tv/"], a[href*="github.com/"], a[href*="discord.com/"], a[href*="twitter.com/"] {
+  padding: 24px;
+  background-size: 24px;
+}
+
+a[href*="twitter.com/"] {
+  background: url(https://twitter.com/favicon.ico) no-repeat left center;
+}
+
+a[href*="discord.com/"] {
+  background: url(discord.png) no-repeat left center;
+}
+
+a[href*="github.com/"] {
+  background: url(https://github.com/favicon.ico) no-repeat left center;
+}
+
+a[href*="twitch.tv/"] {
+  background: url(https://twitch.tv/favicon.ico) no-repeat left center;
+}
+
+a[href*="youtube.com/"] {
+  background: url(https://youtube.com/favicon.ico) no-repeat left center;
+}
+
+a[href*="steampowered.com/"] {
+  background: url(https://store.steampowered.com/favicon.ico) no-repeat left center;
+}
+
+/*# sourceMappingURL=icon.css.map */
