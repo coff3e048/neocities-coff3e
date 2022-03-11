@@ -12,9 +12,10 @@ build:
 	@echo "Compiling CoffeeScript (.coffee) -> JavaScript (.js)"
 	npm install --save-dev --force coffeescript \
 	&& ./node_modules/coffeescript/bin/coffee --compile --output ./site/script ./src/coffee \
-	&& rm -r ./node_modules/ ./package-lock.json
+	&& rm -r ./node_modules/ ./package-lock.json \
+	&& echo "Done."
 
 upload:
 	cd ./site \
-    && npx neocel -t $NEOCITIES_TOKEN \
+    && npx neocel \
     && echo Done.
