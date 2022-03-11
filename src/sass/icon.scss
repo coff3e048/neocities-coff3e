@@ -1,0 +1,37 @@
+$psize: 24px;
+$pos: no-repeat left center;
+
+.padding {
+	padding: $psize;
+  	background-size: $psize;
+}
+
+a[href*="twitter.com/"] {
+  background:url(https://twitter.com/favicon.ico) $pos;
+  @extend .padding
+}
+
+a[href*="discord.com/"] {
+  background:url(discord.png) $pos;
+  @extend .padding
+}
+
+a[href*="github.com/"] {
+  background:url(https://github.com/favicon.ico) $pos;
+  @extend .padding
+}
+
+a[href*="twitch.tv/"] {
+  background:url(https://twitch.tv/favicon.ico) $pos;
+  @extend .padding
+}
+
+a[href*="youtube.com/"] {
+  background:url(https://youtube.com/favicon.ico) $pos;
+  @extend .padding
+}
+
+a[href*="steampowered.com/"] {
+  background:url(https://store.steampowered.com/favicon.ico) $pos;
+  @extend .padding
+}
